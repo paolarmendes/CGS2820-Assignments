@@ -1,0 +1,86 @@
+/* Style sheet created by: Paola Ramos Mendes, styles.css, 02/21/2026*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body and images */
+body {
+	background-color: #e4f1f6;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/*Style rules for mobile viewport*/
+
+
+/*Style rule to hide tablet-desk class*/
+.tablet-desk{
+    display: none; /*it will hide the tablet-desk class*/
+}
+
+/* Style rule for header */
+header {
+	font-family: Verdana, Arial, sans-serif;
+	text-align: center;
+    padding: 3%;
+    color: #092834;
+    margin-top: 5%;
+}
+
+/* Style rules for nav */
+nav {
+    /*Here I specified a sticky position compatible with all modern browsers*/
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0; /*I specified the top to be zero*/
+    background-color: #67afcb;
+}
+
+nav ul {
+    list-style-type: none; /*It will remove the bullet marker*/
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 4%;
+    font-family: "B612", sans-serif; /*I set the font to be the first font I chose from google fonts*/
+}
+
+nav li a {
+    display: block;
+    color: #092834;
+    text-decoration: none;
+}
+
+/* Style rules for main content  */
+main {
+	display: block;
+	margin: 1% 1% 15%;
+	padding: 1%;
+    font-size: 1.5em;
+    font-family: "Crimson Text", serif; /*I set the font to be the second font I chose from google fonts*/
+}
+
+.corner{ /*created a style rule for the corner class*/
+    border-radius: 12px;
+}
+
+#image {
+    margin-bottom: 1%;
+}
+
+/* Style rule for footer */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}
